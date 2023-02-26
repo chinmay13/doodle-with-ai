@@ -28,7 +28,7 @@
 .menu-header {
   display: grid;
   grid-template-columns: 30rem 30rem 30rem;
-  height: 4rem;
+  height: 5rem;
 }
 
 .footer-div {

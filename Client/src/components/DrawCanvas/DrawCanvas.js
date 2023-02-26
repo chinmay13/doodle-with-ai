@@ -1,10 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./DrawCanvas.css";
 import "./Board";
 import "./rdp.js";
 import Board from "./Board";
+import logoImg from "../../doodle_ai_logo.png";
 
 function DrawCanvas() {
   // Initialization when the component
@@ -37,8 +38,8 @@ function DrawCanvas() {
   return (
     <div className="App">
       <div className="menu-header">
-        <Link to="/" className="homepage-button ui button">
-          Homepage
+        <Link to="/" className="homepage-button">
+          <img className="logoImg" src={logoImg} style={{ width: "11rem" }} />
         </Link>
         <div className="header-middle-div">{statusText}</div>
         <div className="header-save-art ui button" style={{ display: "none" }}>
