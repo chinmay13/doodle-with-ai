@@ -1,0 +1,82 @@
+.draw-area {
+  width: calc(100% - 1rem);
+  margin: 1rem;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.draw-area > canvas {
+  background-color: black;
+  border: 1rem burlywood solid;
+  border-radius: 10px;
+}
+
+.Menu {
+  width: 650px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #a3a3a32d;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.menu-header {
+  display: grid;
+  grid-template-columns: 30rem 30rem 30rem;
+  height: 4rem;
+}
+
+.footer-div {
+  display: grid;
+  grid-template-columns: 12rem 12rem 12rem;
+  gap: 20px;
+}
+
+.homepage-button {
+  width: 12rem;
+  height: calc(100% - 1rem);
+  justify-content: center;
+  align-self: center;
+}
+
+.header-middle-div {
+  justify-self: center;
+}
+
+.header-save-art {
+  width: 12rem;
+  height: calc(100% - 1rem);
+
+  text-align: right;
+  justify-self: right;
+  align-self: center;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.footer-button {
+  width: 12rem;
+  height: calc(100% - 1rem);
+  justify-content: center;
+  align-self: center;
+}
+
+.color-button {
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 2rem;
+  width: 2rem;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.pen-color-list {
+  height: 2rem;
+  display: flex;
+  margin-left: auto;
+}

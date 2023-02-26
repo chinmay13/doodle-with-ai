@@ -1,0 +1,15 @@
+.dashboard-body {
+  font-size: 15px;
+  background-color: #ff9797;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  padding-top: 5rem;
+  color: white;
+}
+
+.start-button {
+  margin-top: 10px;
+  background: #30c9c9 !important;
+  color: white !important;
+}
