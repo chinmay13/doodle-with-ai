@@ -41,9 +41,11 @@ function DrawCanvas() {
           Homepage
         </Link>
         <div className="header-middle-div">{statusText}</div>
-        <div className="header-save-art ui button">Save your art</div>
+        <div className="header-save-art ui button" style={{ display: "none" }}>
+          Save your art
+        </div>
       </div>
-      <div className="pen-color-list">
+      <div className="pen-color-list" style={{ display: "none" }}>
         <div
           className="color-button"
           color="pink"
