@@ -93,7 +93,7 @@ function DrawCanvas() {
         stopGeneration={stopGeneration}
         setStatusText={setStatusText}
       />
-      <div className="footer-div">
+      <div className="footer-div" style={{ display: "none" }}>
         <div className="draw-again ui button">Draw Again</div>
         <div className="clear ui button" onClick={clearCanvas}>
           Clear
